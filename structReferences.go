@@ -5,7 +5,7 @@ import "time"
 type Customer struct {
 	CustomerID int    `json:"customerID"`
 	FirstName  string `json:"firstName"`
-	LastName   string `json:"title"`
+	LastName   string `json:"lastName"`
 	Email      string `json:"email"`
 	Phone      string `json:"phone"`
 	Bonuses    int    `json:"bonuses"`
