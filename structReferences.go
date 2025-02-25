@@ -67,7 +67,7 @@ type Dish struct {
 }
 
 type Sale struct {
-	DishID     int       `json:"dishID"`
+	SaleID     int       `json:"saleID"`
 	Percentage int       `json:"percentage"`
 	BeginDate  time.Time `json:"beginDate"`
 	EndDate    time.Time `json:"endDate"`
