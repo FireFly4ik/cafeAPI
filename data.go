@@ -53,7 +53,7 @@ var dishes = []Dish{
 var sales = []Sale{
 	{SaleID: 1, Percentage: 10, BeginDate: time.Now(), EndDate: time.Now().AddDate(0, 0, 7)},
 	{SaleID: 2, Percentage: 15, BeginDate: time.Now(), EndDate: time.Now().AddDate(0, 0, 10)},
-	{SaleID: 3, Percentage: 5, BeginDate: time.Now(), EndDate: time.Now().AddDate(0, 0, 5)},
+	{SaleID: 3, Percentage: 6, BeginDate: time.Now(), EndDate: time.Now().AddDate(0, 0, 5)},
 }
 
 var categories = []Category{
